@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, lightblue, lightgreen);
+  text-align: center;
+  color: #fff;
+  font-family: 'Be Vietnam Pro', sans-serif;;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  font-size: 12px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: violet;
+
+}
+
+.left-navbar {
+  width: 200px;
+  line-height: 50px;
+  left: 10px;
+  position: relative;
+}
+
+.left-navbar p {
+font-family: 'Itim', cursive;
+position: relative;
+left: -10px;
+}
+
+.right-navbar {
+  width: 400px;
+  position: relative;
+  left: 550px;
+  top: -45px;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.right-navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.container {
+  max-width: 80%;
+  background-color: rgb(248, 249, 250);
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  max-width: 650px;
+  background-color: lightblue;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0 5px 2px lightgreen ;
+  padding: 20px;
+}
+
+.container span img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0 5px 3px white;
+  margin-bottom: 10px;
+}
+
+.content {
+  max-width: 650px;
+  background-color: lightgreen;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: 
+  box-shadow: 0 0 5px 2px lightblue ;
+  padding: 20px;
+  position: relative;
+}
+.content p {
+  text-align: justify;
+}
+
+.skill{
+  width: 100%;
+  box-shadow: 0 0 5px white;
+  background-color: #bbb;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  text-align: left;
+}
+
+.skill .garis-skill1 {
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, lightblue 60%, black 40%);
+  border-radius: 10px;
+}
+
+.skill .garis-skill2 {
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to left, black 65%, lightblue 20%);
+  border-radius: 10px;
+}
+
+.skill .garis-skill3 {
+  width: 100%;
+  height: 5px;
+ background-color: black;
+  border-radius: 10px;
+}
+
+.item-hobi {
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  left: 0px;
+}
+
+.item-hobi iframe {
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  border: solid 5px white;
+}
+
+
+
+.item-hobi2 {
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  right: 1px;
+}
+
+.item-hobi2 iframe {
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  border: solid 5px white;
+}
+
+h3 a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+
+
+video {
+  background-color: #000;
+  width: 80%;
+  height: 80%;
+  border: solid 5px white;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: violet;
+  line-height: 50px;
+}
+
+/* Responsive Breakpoint */
+
+/* Ukuran tablet */
